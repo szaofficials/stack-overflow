@@ -1,0 +1,139 @@
+/* Feeds.css */
+
+.feeds-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post-container {
+  margin-bottom: 10px;
+}
+
+.text-box-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text-box-container input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text-box-container input[type="file"] {
+  display: none;
+}
+
+.file-input-label {
+  display: inline-block;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.file-input-label:hover {
+  background-color: #1265c7;
+}
+
+/* .file-input-label::before {
+  content: "Choose File";
+} */
+
+
+
+
+.file-input {
+  display: none;
+}
+
+.post-button {
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 50%;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ 
+}
+
+.feed-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.feed-item img {
+  /* max-width: 100%; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.feed-info {
+  font-size: 14px;
+}
+
+.user {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.timestamp {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.post {
+  margin-bottom: 10px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  color: #777;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.actions button:hover {
+  color: #1877f2;
+}
+
+.likes {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comments {
+  font-size: 14px;
+}
+
+.comments div {
+  margin-bottom: 5px;
+}
+
+.right-arrow{
+  width: 20px;
+  align-items: center;
+}
